@@ -26,6 +26,18 @@ grandes telas: acima de 1200px
         width: 70%;
     }
     form input[type="submit"] {width: 70%;}
+    form div.campo {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+        display: flex;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
     div.campo input {
         width: calc(70% - 45px);
         transform: translateY(-11px);}
@@ -58,6 +70,18 @@ div#formulario p {
         font-size: 1.2em;
     }
     form input[type="submit"] {width: 50%;}
+    form div.campo {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+        display: flex;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
     div.campo input {
         width: calc(50% - 45px);
         transform: translateY(-11px);}
